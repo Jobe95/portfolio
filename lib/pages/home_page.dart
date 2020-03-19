@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:portfolio_jobe/tabs/about_tab.dart';
 import 'package:portfolio_jobe/tabs/project_tab.dart';
 import 'package:portfolio_jobe/tabs/slideshow_tab.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -16,9 +17,20 @@ class _HomePageState extends State<HomePage> {
     SlideShowTab(),
   ];
 
+  CollectionReference get projects => Firestore.instance.collection('Projects');
+
   @override
   void initState() {
     super.initState();
+    testFirebase();
+  }
+
+  testFirebase() async {
+    print('Hej');
+
+    QuerySnapshot snapshot = await projects.getDocuments();
+    print('TJa');
+    print(snapshot.documents.length);
   }
 
   @override
