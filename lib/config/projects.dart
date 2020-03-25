@@ -22,6 +22,12 @@ final List<Project> projects = [
           'Report incidents in CityCare to let youre other fellas on the road know whats coming.',
       link: 'https://github.com/Jobe95/cityCare'),
   Project(
+      name: 'HackerNews',
+      image: Assets.LINKEDIN,
+      description:
+          'Fetching hackernews from hackernews api, user can read news and comments',
+      link: 'https://github.com/Jobe95/cityCare'),
+  Project(
       name: 'Restaurant finder',
       image: Assets.PROFILE_AVATAR,
       description:

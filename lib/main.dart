@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio_jobe/pages/home_page.dart';
 
-Future<void> main() async {
+void main() {
   runApp(
     MaterialApp(
       title: 'Jonatan-Portfolio',

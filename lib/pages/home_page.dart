@@ -27,10 +27,6 @@ class _HomePageState extends State<HomePage> {
 
   testFirebase() async {
     print('Hej');
-
-    QuerySnapshot snapshot = await projects.getDocuments();
-    print('TJa');
-    print(snapshot.documents.length);
   }
 
   @override
