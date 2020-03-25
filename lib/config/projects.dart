@@ -26,7 +26,7 @@ final List<Project> projects = [
       image: Assets.LINKEDIN,
       description:
           'Fetching hackernews from hackernews api, user can read news and comments',
-      link: 'https://github.com/Jobe95/cityCare'),
+      link: 'https://github.com/Jobe95/hacker_news'),
   Project(
       name: 'Restaurant finder',
       image: Assets.PROFILE_AVATAR,

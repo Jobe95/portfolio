@@ -18,4 +18,5 @@ final List<SlideShowImage> images = [
   SlideShowImage(title: 'The Equal System', image: Assets.LINKEDIN),
   SlideShowImage(title: 'Doggo Meet Doggo', image: Assets.TWITTER),
   SlideShowImage(title: 'CityCare', image: Assets.GITHUB),
+  SlideShowImage(title: 'HackerNews', image: Assets.LINKEDIN),
 ];
